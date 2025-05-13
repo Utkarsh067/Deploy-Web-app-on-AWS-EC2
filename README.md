@@ -95,8 +95,8 @@ __Hello from Terraform User Data!__
 1. Clone this repository:
 
 ```
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/Utkarsh067/Deploy-Web-app-on-AWS-EC2.git
+   cd Deploy-Web-app-on-AWS-EC2
 ```
 
 2. Verify that the main.tf file exists in the directory. If not, copy it manually.
@@ -144,4 +144,4 @@ Utkarsh Jain
 
 📍 DevOps & Cloud Enthusiast
 
-🔗 GitHub
+🔗 [GitHub](https://github.com/Utkarsh067)
