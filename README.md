@@ -17,7 +17,6 @@ Host a basic web app using Apache on an EC2 instance in the **ap-south-1 (Mumbai
 
 - **AWS EC2**
 - **Amazon Linux 2**
-- **Apache HTTP Server**
 - **Terraform**
 - **Shell Script**
 
@@ -127,6 +126,7 @@ terraform apply
 ```http://<your-public-ip>```
 
 ****You should see:****
+
    __Hello from Terraform User Data!__
 
 ### 🧹 Cleanup
