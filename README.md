@@ -101,7 +101,7 @@ __Hello from Terraform User Data!__
 
 2. Verify that the main.tf file exists in the directory. If not, copy it manually.
 
-📝 Ensure the key name in main.tf (pemFile) matches the key pair available in your AWS account.
+Note: Ensure the key name in main.tf (pemFile) matches the key pair available in your AWS account.
 
 ### 📄 Configuration Summary
 
