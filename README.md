@@ -61,10 +61,13 @@ In **Advanced Details → User data**, paste:
 ```bash
 #!/bin/bash
 yum update -y
-yum install httpd -y
-systemctl start httpd
-systemctl enable httpd
-echo "<h1>Hello from Terraform User Data!</h1>" > /var/www/html/index.html
+yum install -y docker git
+systemctl start docker
+systemctl enable docker
+git clone https://github.com/Utkarsh067/Dockerise-Web-App.git /home/ec2-user/app
+cd /home/ec2-user/app
+docker build -t virtual-library .
+docker run -d -p 80:80 virtual-library
 ```
 
 #### 3. Launch & Test
@@ -76,7 +79,7 @@ echo "<h1>Hello from Terraform User Data!</h1>" > /var/www/html/index.html
 
 ****You should see:****
 
-__Hello from Terraform User Data!__
+Virtual Library Homepage
 
 
 ## 📘 Option 2: Deploy via Terraform
@@ -127,7 +130,7 @@ terraform apply
 
 ****You should see:****
 
-   __Hello from Terraform User Data!__
+Virtual Library Homepage
 
 ### 🧹 Cleanup
 
