@@ -79,7 +79,7 @@ docker run -d -p 80:80 virtual-library
 
 ****You should see:****
 
-Virtual Library Homepage
+![image](https://github.com/user-attachments/assets/8721597a-d0a0-4f87-8fca-e31f26413caf)
 
 
 ## 📘 Option 2: Deploy via Terraform
@@ -130,7 +130,8 @@ terraform apply
 
 ****You should see:****
 
-Virtual Library Homepage
+![image](https://github.com/user-attachments/assets/c48d4347-4bc6-49c0-a29d-0033f31b4595)
+
 
 ### 🧹 Cleanup
 
