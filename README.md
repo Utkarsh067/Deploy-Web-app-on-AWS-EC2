@@ -1,6 +1,6 @@
 # 🚀 Deploying a Web App on AWS EC2
 
-This project demonstrates two ways to deploy a simple web application on an Amazon EC2 instance:
+This project demonstrates two ways to deploy a Virtual Library - a static web application on an Amazon EC2 instance:
 
 1. ✅ Using AWS Console  
 2. ✅ Using Terraform (Infrastructure as Code)
