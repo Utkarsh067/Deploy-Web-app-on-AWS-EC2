@@ -9,7 +9,7 @@ This project demonstrates two ways to deploy a Virtual Library - a static web ap
 
 ## 📌 Project Goal
 
-Host a basic web app using Apache on an EC2 instance in the **ap-south-1 (Mumbai)** region.
+Host a basic web app on an EC2 instance in the **ap-south-1 (Mumbai)** region.
 
 ---
 
